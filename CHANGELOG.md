@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.0.1] - 2026-02-23
+
 ### Added
 
 - Support for React 19
+
+[unreleased]: https://github.com/neolution-ch/react-popper/compare/3.0.1...HEAD
+[3.0.1]: https://github.com/neolution-ch/react-popper/compare/3.0.1-rc.0...3.0.1
