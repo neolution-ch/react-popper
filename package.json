@@ -1,6 +1,6 @@
 {
   "name": "@neolution-ch/react-popper",
-  "version": "3.0.0",
+  "version": "3.0.1-rc.0",
   "description": "Official library to use Popper on React projects",
   "license": "MIT",
   "author": "Travis Arnold <travis@souporserious.com> (http://souporserious.com)",
