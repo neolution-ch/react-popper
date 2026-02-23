@@ -23,3 +23,4 @@ coverage
 .tmp
 .vscode
 *.log
+.vs
