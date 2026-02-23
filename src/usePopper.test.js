@@ -1,5 +1,5 @@
 // @flow strict
-import {renderHook, act, waitFor } from '@testing-library/react';
+import { renderHook, act, waitFor } from '@testing-library/react';
 import * as PopperJs from '@popperjs/core';
 
 // Public API
@@ -91,7 +91,7 @@ describe('userPopper', () => {
     await waitFor(() => {
       expect(spy.mock.results[0]).toBeDefined();
     });
-    
+
     const popperInstance = spy.mock.results[0].value;
     const destroy = jest.spyOn(popperInstance, 'destroy');
 

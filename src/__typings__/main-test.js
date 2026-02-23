@@ -33,7 +33,11 @@ export const Test = (): React.Node => (
       }) => (
         <div
           ref={ref}
-          style={{ ...style, opacity: (isReferenceHidden === true || hasPopperEscaped === true) ? 0 : 1 }}
+          style={{
+            ...style,
+            opacity:
+              isReferenceHidden === true || hasPopperEscaped === true ? 0 : 1,
+          }}
           data-placement={placement}
           onClick={() => update()}
         >

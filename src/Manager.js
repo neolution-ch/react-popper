@@ -1,7 +1,7 @@
 // @flow strict
 import * as React from 'react';
 
-export const ManagerReferenceNodeContext: React.Context<?Element>  = React.createContext();
+export const ManagerReferenceNodeContext: React.Context<?Element> = React.createContext();
 export const ManagerReferenceNodeSetterContext: React.Context<
   void | ((?Element) => void)
 > = React.createContext();

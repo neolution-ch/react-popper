@@ -25,7 +25,10 @@ export const Test = () => (
       }) => (
         <div
           ref={ref}
-          style={{ ...style, opacity: (isReferenceHidden || hasPopperEscaped) ? 0 : 1 }}
+          style={{
+            ...style,
+            opacity: isReferenceHidden || hasPopperEscaped ? 0 : 1,
+          }}
           data-placement={placement}
           onClick={() => update()}
         >

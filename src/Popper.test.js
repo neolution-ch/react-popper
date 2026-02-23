@@ -49,11 +49,7 @@ describe('Popper component', () => {
       render(
         <Popper referenceElement={referenceElement}>
           {({ ref, style, placement, arrowProps }) => (
-            <div
-              ref={handleRef(ref)}
-              style={style}
-              data-placement={placement}
-            >
+            <div ref={handleRef(ref)} style={style} data-placement={placement}>
               <div {...arrowProps} ref={handleRef(arrowProps.ref)} />
             </div>
           )}

@@ -15,7 +15,8 @@ React wrapper around [Popper](https://popper.js.org).
 
 This library wraps `@popperjs/core`, not `@floating-ui/dom`.
 
-To use the new Floating UI package with React, instead visit https://floating-ui.com/docs/react-dom. 
+To use the new Floating UI package with React, instead visit
+https://floating-ui.com/docs/react-dom.
 
 ---
 
@@ -45,7 +46,6 @@ Via `script` tag (UMD library exposed as `ReactPopper`):
 The full documentation can be found on the official Popper website:
 
 http://popper.js.org/react-popper
-
 
 ## Running Locally
 
